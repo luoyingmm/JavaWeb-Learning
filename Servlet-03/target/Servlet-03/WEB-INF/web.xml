@@ -1,0 +1,41 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+  <display-name>Archetype Created Web Application</display-name>
+  <servlet>
+    <servlet-name>response01</servlet-name>
+    <servlet-class>com.luoyingmm.Servlet.response_01</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>response01</servlet-name>
+    <url-pattern>/re</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>ImageServlet</servlet-name>
+    <servlet-class>com.luoyingmm.Servlet.ImageServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ImageServlet</servlet-name>
+    <url-pattern>/iv</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>RedirectServlet</servlet-name>
+    <servlet-class>com.luoyingmm.Servlet.RedirectServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>RedirectServlet</servlet-name>
+    <url-pattern>/rt</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <servlet-name>requestTest</servlet-name>
+    <servlet-class>com.luoyingmm.Servlet.requestTest</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>requestTest</servlet-name>
+    <url-pattern>/login</url-pattern>
+  </servlet-mapping>
+</web-app>
