@@ -13,5 +13,8 @@
         <module name="Servlet-03" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Servlet-06" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
